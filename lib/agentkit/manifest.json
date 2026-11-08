@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-aero-workflow",
+      "description": "Connect AI agents to Aero Workflow using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-aero-workflow/SKILL.md": "e60b07d6a11c40c90f84c76d10b23d9284170e64d1fbcefeb4817c0ad7970c47"
+  }
+}
