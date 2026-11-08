@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "85926dada99aab5efdd539928a39b74379a2bbb83a6eda75f97ece5e95501a4f",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://api.aeroworkflow.com/swagger/v1/swagger.json"
+  ],
+  "id": "aero-workflow-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Aero Workflow MCP setup and connection checker",
+  "description": "Generate Aero Workflow MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "aero-workflow",
+  "appName": "Aero Workflow",
+  "providerDocs": "https://api.aeroworkflow.com/swagger/v1/swagger.json",
+  "providerWebsite": "https://www.aeroworkflow.com/",
+  "authentication": {
+    "type": "api_key_header",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://www.aeroworkflow.com/aero-api/",
+    "tenantRequired": false,
+    "accountParameterNames": [
+      "account_id"
+    ]
+  },
+  "attributionSlug": "github-aero-workflow-mcp"
+}
